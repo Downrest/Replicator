@@ -10,5 +10,5 @@ test_client
 test_server
 test_shared
 packages/
-default.project.json
+debug.project.json
 .lpm-patch/
