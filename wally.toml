@@ -1,5 +1,5 @@
 [package]
-name = "downr/replicator"
+name = "downrest/replicator"
 version = "0.1.0"
 description = "Table-based replication library for shared data."
 registry = "https://github.com/UpliftGames/wally-index"
@@ -7,6 +7,6 @@ repository = "https://github.com/Downrest/Replicator"
 realm = "shared"
 
 [dependencies]
-Signal = "nowoshire/namedsignal@^"
-DeltaCompress = "nezuo/delta-compress@^"
-t = "osyrisrblx/t@^"
+Signal = "nowoshire/namedsignal@^2.3.3"
+DeltaCompress = "nezuo/delta-compress@^0.1.3"
+t = "osyrisrblx/t@^3.1.1"
