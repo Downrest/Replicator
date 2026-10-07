@@ -115,6 +115,10 @@ local function fillReplica(
                         -- in the future, i could support defined schemas
                         assert(setValueType == self._valueTypeName, `Attempted to set {referenceKey} of type {self._valueTypeName} with type {setValueType}`)
                     end
+
+                    if setValue == referenceLayer[referenceKey] then
+                        return
+                    end
     
                     previousReferenceLayer[referenceKey] = referenceLayer[referenceKey]
                     referenceLayer[referenceKey] = setValue
@@ -155,9 +159,6 @@ local function fillReplica(
                     end
                 end
 
-                if source:Get() == value then
-                    return
-                end
                 source:Set(value)
             end
         }
