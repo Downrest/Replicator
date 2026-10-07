@@ -1,6 +1,6 @@
 [package]
 name = "downrest/replicator"
-version = "0.1.0"
+version = "1.0.1"
 description = "Table-based replication library for shared data."
 registry = "https://github.com/UpliftGames/wally-index"
 repository = "https://github.com/Downrest/Replicator"

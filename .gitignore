@@ -11,4 +11,7 @@ test_server
 test_shared
 packages/
 debug.project.json
+lpm.toml
+lpm.lock
+rokit.toml
 .lpm-patch/
